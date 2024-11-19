@@ -64,20 +64,25 @@ The following LLMs from Hugging Face Transformers can translate Chinese text int
 
 **1. Clone the Repository**
 
-```git
-bash
+```bash
 git clone https://github.com/xinihe/ESG_Agent.git
 ```
 
 **2. Create a Virtual Environment**
 
+```bash
 python -m venv esg_venv
+```
 
+```bash
 source esg_venv/bin/activate
+```
 
 **3. Install Dependencies**
 
+```bash
 pip install -r requirements.txt
+```
 
 ### **Tutorial**
 
@@ -91,6 +96,5 @@ pip install -r requirements.txt
 
 
 **Step 4: Train a Custom LLM (Optional)**
-
 
 ### **References**
