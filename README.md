@@ -7,10 +7,32 @@ This repository supports the research project **“Digital Transformation and Ca
 Leveraging **large language models (LLMs)** from [Modelscope](https://www.modelscope.cn/) and [Hugging Face Transformers](https://huggingface.co/docs/transformers/), this repository enables:
 
 - Summarization and translation of yearbook content.
-
 - Construction of a custom corpus with raw MDA data and labeled EI metrics (dummy or degree).
-
 - Automated and scalable methods for sustainability research.
+
+### **Models** 
+
+This section lists recommended LLMs from **Modelscope** and **Hugging Face Transformers** that are suited for summarization and translation tasks.
+
+**1. Summarization Models (Modelscope)**
+
+The following LLMs from Modelscope can summarize Chinese text effectively:
+
+| **Model Name**                                                        | **Task**     | **Description**                                                       |
+| --------------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------- |
+| [Ziya-LLaMA-13B](https://www.modelscope.cn/models/ziya/ziya-llama-13b/summary) | Text Summarization | A powerful LLaMA-based model trained for multi-language text summarization. |
+| [mGLM-10B](https://www.modelscope.cn/models/mglm/mglm-10b)                     | Summarization      | A multilingual model optimized for concise and contextual summaries.        |
+| [StructBERT](https://www.modelscope.cn/models/structbert/summary)              | Text Analysis      | Suitable for summarizing structured and unstructured data in Chinese.       |
+
+**2. Translation Models (Hugging Face Transformers)**
+
+The following LLMs from Hugging Face Transformers can translate Chinese text into English:
+
+| **Model Name**                                                                          | **Task**             | **Description**                                                |
+| --------------------------------------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------- |
+| [Helsinki-NLP/opus-mt-zh-en](https://huggingface.co/Helsinki-NLP/opus-mt-zh-en)                  | Machine Translation        | Pre-trained model for Chinese-to-English translation using MarianMT. |
+| [mbart-large-50-many-to-one-mmt](https://huggingface.co/facebook/mbart-large-50-many-to-one-mmt) | Multilingual Translation   | A multilingual model capable of translating from Chinese to English. |
+| [nllb-200-zh-en](https://huggingface.co/facebook/nllb-200-zh-en)                                 | Neural Machine Translation | State-of-the-art multilingual translation model with high accuracy.  |
 
 ### **Repository Structure**
 
@@ -42,7 +64,10 @@ Leveraging **large language models (LLMs)** from [Modelscope](https://www.models
 
 **1. Clone the Repository**
 
+```git
+bash
 git clone https://github.com/xinihe/ESG_Agent.git
+```
 
 **2. Create a Virtual Environment**
 
