@@ -65,7 +65,7 @@ The following LLMs from Hugging Face Transformers can translate Chinese text int
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/xinihe/ESG_Agent.git
+git clone https://github.com/xinihe/EnvInnovation_Agent.git
 ```
 
 **2. Create a Virtual Environment**
