@@ -131,9 +131,8 @@ env.bak/
 venv.bak/
 esg_venv/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Mac project settings
+.DS_Store
 
 # Rope project settings
 .ropeproject
