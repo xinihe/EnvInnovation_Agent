@@ -18,7 +18,7 @@ Leveraging **large language models (LLMs)** from [Modelscope](https://www.models
 - /data: Corpus containing raw MDA data and labeled Environmental Innovation metrics.
 - /code: Python scripts for data preprocessing, summarization, translation, and EI extraction.
 - /models: Pre-trained and fine-tuned LLMs for summarization and EI prediction.
-- /requirements.txt: Python dependencies required to run the project.
+- requirements.txt: Python dependencies required to run the project.
 
 ### **Features**
 
