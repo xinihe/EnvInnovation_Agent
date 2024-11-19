@@ -42,7 +42,7 @@ Leveraging **large language models (LLMs)** from [Modelscope](https://www.models
 
 **1. Clone the Repository**
 
-git clone https://github.com/your-repo-name.git
+git clone https://github.com/xinihe/ESG_Agent.git
 
 **2. Create a Virtual Environment**
 
